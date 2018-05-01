@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Great Offers Buy Now </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+       
+       p{
+
+        text-align: justify;
+        font-family: 'Dosis', sans-serif;
+       }
+
+       h3{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+       }
+
+       td.bottomline{
+       border-bottom:thin solid blue;
+      }
+    
+    </style>
+           
+</head>
+    <body>
+        </body>
+
+</html>
+<html>
+<head>
+
+    <title> Great Offers Buy Now </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+
+    .bg-4 { 
+      background-color: #2649dd;
+      color: #fff;
+     }
+
+    .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse bg-4 text-center">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.php" style="color: white;">Suman's Kids Kingdom</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="navbar-brand" href="movieslist.php" style="color: white;">Kids Cartoon Movies List</a></li>
+        <li><a class="navbar-brand" href="Cart.php" style="color: white;">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br><br><br>
+    
+<body>
+<div class="container">
+  <div class="container-fluid">
+    
+          <div class="col-md-4">
+            <div class="jumbotron">
+                <img  src= "images/320.png" width="225px">
+            </div>
+          </div>
+   
+        
+         <div class="col-md-8">
+          <div class="jumbotron">
+           <form method="post" action="Cart.php">
+            <table>
+              <tr>
+                 <td colspan="3">
+                  <h3>The Great Bear</h3>
+                  <br>
+                  <p>Jonathan spends his vacations alone with his grandfather on the edge of a forest populated by mythical animals. This year his kid sister Sophie joins. When she disappears, he has to venture into the heart of the forest to rescue her.</p>
+                  <br>
+                </td>
+              </tr>
+                <tr>
+                  <td style="font-size: 19px;">Director: &nbsp;Markus Rygaard, Albert Blichfeldt&nbsp; </td>
+                  <td style="font-size: 19px;"><strong>Rating: </strong></td>
+                  <td>
+                      <br />
+                      <p> <img src="images/4star.png" width="120px"></p>
+                      <br />
+                  </td>
+                </tr>
+                <tr>
+                    <td class="bottomline"></td>
+                    <td class="bottomline" style="vertical-align:middle; font-size: 17px;">
+                        Price (in USD): $
+                        <br />
+                        <br />
+                        Quantity:
+                    </td>
+                    <td class="bottomline" style="font-size: 17px;">
+                        <br />
+                        4
+                        <br />
+                        <br />
+                        <select name="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                        </select>
+                        <br />
+                        <br />
+                     </td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">
+            <a href="https://www.amazon.com/Great-Bear-Markus-Rygaard/product-reviews/B00KL5IHF4/ref=cm_cr_dp_d_acr_sr?ie=UTF8&reviewerType=all_reviews">Find a review on Amazon.com</a>
+                     </td>
+                     <td>
+                        <br />
+                        <input type="hidden" name="Desired_Action" value="Adding">
+                        <input type="hidden" name="name" value="TheGreatBear">
+                        <input type="hidden" name="price" value="4">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Add to cart">
+                        <br />
+                        <br />
+                     </td>
+                 </tr>
+               
+               </table>
+              </form>
+          </div>
+        </div>
+    </div>
+</div>
+     </body>
+ 
+    
+    <html>
+<body>
+<footer class="container-fluid bg-4 text-center">
+  <h4 style="font-family: 'Dosis', sans-serif;">Designed and Developed By Suman Kumar Sanjeev Prasanna</h4> 
+</footer>
+</body>
+</html>
